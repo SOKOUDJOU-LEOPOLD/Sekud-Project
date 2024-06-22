@@ -1,0 +1,36 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+@font-face {
+    font-family: 'Inter Light';
+    src: url('../font/Inter-Light.ttf') ;
+}
+
+@font-face {
+    font-family: 'Inter Black';
+    src: url('../font/Inter-Black.ttf') ;
+}
+
+.mainFxmlClass {
+
+}
+
+.root{
+    -fx-font: normal normal 18px "Inter Light" ;
+    -fx-text-fill: #0C5070 ;
+    -fx-background-color: #DBE2EF ;
+}
+
+.button {
+    -fx-alignment: center ;
+    -fx-text-fill: white ;
+    -fx-text-alignment: center ;
+    -fx-cursor: hand ;
+    -fx-effect: dropshadow(one-pass-box, #0C5070, 10, 0.3, 0, 0) ;
+    -fx-background-color: linear-gradient(#11719E,#0C5070) ; 
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#0C5070,#11719E) ; 
+}

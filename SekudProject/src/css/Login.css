@@ -1,0 +1,75 @@
+/* 
+    Created on : May 20, 2022, 1:57:31 PM
+    Author     : Roger NDJEUMOU
+    
+    @Colors:
+        Primary         #11719E
+        Primary Dark    #0C5070
+        Primary Light   #1692CC
+        Secondary       #D1AC6D
+        Secondary Dark  #A68856
+        Secondary Light #FFD285 
+*/
+
+@font-face {
+    font-family: 'Inter Light';
+    src: url('../font/Inter-Light.ttf') ;
+}
+
+@font-face {
+    font-family: 'Inter Black';
+    src: url('../font/Inter-Black.ttf') ;
+}
+
+.root {
+    -fx-background-image: url("../images/Pkf-Main-Building.jpg") ;
+    -fx-background-color: rgba(128, 128, 128, 0.4) ;
+    -fx-background-radius: 20px ;
+    -fx-font: normal normal 16pt "Inter Black" ;
+}
+
+.label {
+    -fx-text-fill: white ;
+    -fx-effect: dropshadow(one-pass-box, rgba(255,255,255, 0.3), 2, 1, 0, 1) ;
+}
+
+.button {
+    -fx-text-fill: white ;
+    -fx-cursor: hand ;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 10, 0.0, 1, 1);
+}
+
+#btnSignIn {
+    -fx-background-color: linear-gradient( #11719E, #0C5070) ;    
+}
+
+#btnSignIn:hover {
+    -fx-background-color: linear-gradient( #0C5070, #11719E) ;    
+}
+
+#btnCancel {
+    -fx-background-color: linear-gradient(#D1AC6D, #A68856) ;
+}
+
+#btnCancel:hover {
+    -fx-background-color: linear-gradient(#A68856, #D1AC6D ) ;
+}
+
+#welcomeText {
+    -fx-alignment: CENTER ;
+    -fx-text-alignment: center ;
+    -fx-text-fill: #D1AC6D ;
+    -fx-font: normal normal 28pt "Inter Black";
+    -fx-effect: innershadow(three-pass-box, rgba(31,31,31,0.7), 6, 0.0, 0, 2) ;
+}
+
+#actionTarget {
+    -fx-fill: #D1AC6D ;
+    -fx-effect: innershadow(two-pass-box, rgba(255, 255, 255, 0.5), 2, 0.5, 1, 0) ;
+}
+
+#loginInput, #pwdInput {
+    -fx-background-color: rgba(255, 255, 255, 0.4); 
+    -fx-background-radius: 20px; 
+    -fx-text-fill: white ;
+}

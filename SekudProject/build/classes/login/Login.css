@@ -1,0 +1,60 @@
+/* 
+    Created on : May 20, 2022, 1:57:31 PM
+    Author     : Roger NDJEUMOU
+*/
+
+.root {
+    -fx-background-image: url("../images/Pkf-Main-Building.jpg") ;
+    -fx-background-color: rgba(128, 128, 128, 0.4) ;
+    -fx-background-radius: 20px ;
+}
+
+.label {
+    -fx-font: normal bolder 16pt cursive ;
+    -fx-text-fill: #333333 ;
+    -fx-effect: dropshadow(gaussian, rgba(255,255,255, 0.5), 2, 1, 0, 1) ;
+}
+
+.button {
+    -fx-text-fill: white ;
+    -fx-font: normal bold 12pt "Arial Narrow" ;
+    -fx-cursor: hand ;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 10, 0.0, 1, 1);
+}
+
+#btnSignIn {
+    -fx-background-color: linear-gradient( #0023F5, #00129A) ;    
+}
+
+#btnSignIn:hover {
+    -fx-background-color: linear-gradient(#00129A, #0023F5) ;    
+}
+
+#btnCancel {
+    -fx-background-color: linear-gradient(#FF0000, #D12D20) ;
+}
+
+#btnCancel:hover {
+    -fx-background-color: linear-gradient(#D12D20, #FF0000) ;
+}
+
+#welcomeText {
+    -fx-alignment: CENTER ;
+    -fx-text-alignment: center ;
+    -fx-fill: #818181 ;
+    -fx-font: normal bold 32pt "Arial Black" ;
+    -fx-effect: innershadow(three-pass-box, rgba(31,31,31,0.7), 6, 0.0, 0, 2) ;
+}
+
+#actionTarget {
+    -fx-fill: firebrick ;
+    -fx-font: normal bold 12pt "Courier New" ;
+    -fx-effect: innershadow(two-pass-box, rgba(255, 255, 255, 0.5), 2, 0.5, 1, 0) ;
+}
+
+#loginInput, #pwdInput {
+    -fx-background-color: rgba(255, 255, 255, 0.4); 
+    -fx-background-radius: 15px; 
+    -fx-font: normal bolder 12pt cursive ;
+    -fx-text-fill: #333 ;
+}
