@@ -4,6 +4,9 @@
  	and enhanace the management of operations in a school.This software provides a user-friendly interface for 
   	managing various aspects of a school, including student information, class scheduling, staff management, and more.
 
+   ![campus portal](https://github.com/user-attachments/assets/0a047bfc-3c73-40df-b3af-5e2ba361e60a)
+
+
 🔗 Features
 
 	➡️ Student Management: 
